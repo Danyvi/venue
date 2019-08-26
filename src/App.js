@@ -1,9 +1,10 @@
 import React from 'react';
 import './resources/styles.css';
 import Header from './components/header_footer/Header';
-import Featured from './components/featured/Index';
-import VenueInfo from './components/venueInfo/index';
-import Highlights from './components/Highlights/index';
+import Featured from './components/featured';
+import VenueInfo from './components/venueInfo';
+import Highlights from './components/Highlights';
+import Pricing from './components/pricing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Featured />
       <VenueInfo />
       <Highlights />
+      <Pricing />
     </div>
   );
 }
